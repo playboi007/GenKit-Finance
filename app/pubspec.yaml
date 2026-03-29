@@ -7,14 +7,29 @@ environment:
   sdk: ^3.10.0
 
 dependencies:
+# Genkit
   genkit: ^0.12.1
+  genkit_google_genai: ^0.2.4
+  # Reactive state
+  signals: ^6.3.0
+  signals_flutter: ^6.3.0
+  # Schemantic
+  schemantic: ^0.1.1
+  # Routing
+  go_router: ^17.1.0
+  # Dependency injection
+  get_it: ^9.2.1
+  # Flutter
   flutter:
     sdk: flutter
+  genkit_shelf: ^0.1.4
+  http: ^1.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  build_runner: ^2.13.1
 
 flutter:
   uses-material-design: true
